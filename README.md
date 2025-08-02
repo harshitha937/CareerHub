@@ -118,58 +118,58 @@ Utils Includes:
 ## 5.Screenshots
 
 ###  Home Page
-![Home Page](./screenshots/Home.png)
+![Home Page](screenshots/Home.png)
 
 ### Login page
-![Login page](./screenshots/Login.png)
+![Login page](screenshots/Login.png)
 
 ### Register page
-![Register page](./screenshots/Register.png)
+![Register page](screenshots/Register.png)
 
 ### User Homepage
-![User Homepage](./screenshots/Userlogin.png)
+![User Homepage](screenshots/Userlogin.png)
 
 ### Job 
-![Job](./screenshots/Jobs.png)
+![Job](screenshots/Jobs.png)
 
 ### About
-![About](./screenshots/Aboutus.png)
+![About](screenshots/Aboutus.png)
 
 ### Contact 
-![Contact](./screenshots/Contact.png)
+![Contact](screenshots/Contact.png)
 
 ### Footer
-![Footer](./screenshots/Footer.png)
+![Footer](screenshots/Footer.png)
 
 ### JobDetails
-![JobDetails](./screenshots/JobDetails.png)
+![JobDetails](screenshots/JobDetails.png)
 
 ### Apply
-![Apply](./screenshots/Apply.png)
+![Apply](screenshots/Apply.png)
 
 ### MyApplication
-![MyApplication](./screenshots/MyApplications.png)
+![MyApplication](screenshots/MyApplications.png)
 
 ### USerProfile
-![UserProfile](./screenshots/UserPRofile.png)
+![UserProfile](screenshots/UserPRofile.png)
 
 ### Admin Homepage
-![Admin Homepage](./screenshots/adminHome.png)
+![Admin Homepage](screenshots/adminHome.png)
 
 ### Manage Jobs
-![Manage Jobs](./screenshots/ManageJobs.png)
+![Manage Jobs](screenshots/ManageJobs.png)
 
 ### Add Job
-![Add Job](./screenshots/PostJob.png)
+![Add Job](screenshots/PostJob.png)
 
 ### Manage USers
-![Manage USers](./screenshots/Manageusers.png)
+![Manage USers](screenshots/Manageusers.png)
 
 ### Contact Messages
-![Contact Messages](./screenshots/ContactResult.png)
+![Contact Messages](screenshots/ContactResult.png)
 
 ### Admin Profile
-![Admin Profile](./screenshots/AdminProfile.png)
+![Admin Profile](screenshots/AdminProfile.png)
 
 
 
