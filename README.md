@@ -148,7 +148,7 @@ Utils Includes:
 ![Apply](screenshots/Apply.png)
 
 ### MyApplication
-![MyApplication](screenshots/MyApplications.png)
+![MyApplication](screenshots/MyAppliactions.png)
 
 ### USerProfile
 ![UserProfile](screenshots/UserPRofile.png)
