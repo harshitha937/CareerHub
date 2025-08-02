@@ -118,13 +118,13 @@ Utils Includes:
 ## 5.Screenshots
 
 ###  Home Page
-![Home Page](screenshots/Home.png)
+![Home Page](Screenshots/Home.png)
 
 ### Login page
-![Login page](screenshots/Login.png)
+![Login page](Screenshots/Login.png)
 
 ### Register page
-![Register page](screenshots/Register.png)
+![Register page](Screenshots/Register.png)
 
 ### User Homepage
 ![User Homepage](Screenshots/Userlogin.png)
