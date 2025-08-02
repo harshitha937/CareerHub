@@ -127,49 +127,49 @@ Utils Includes:
 ![Register page](screenshots/Register.png)
 
 ### User Homepage
-![User Homepage](screenshots/Userlogin.png)
+![User Homepage](Screenshots/Userlogin.png)
 
 ### Job 
-![Job](screenshots/Jobs.png)
+![Job](Screenshots/Jobs.png)
 
 ### About
-![About](screenshots/Aboutus.png)
+![About](Screenshots/Aboutus.png)
 
 ### Contact 
-![Contact](screenshots/Contact.png)
+![Contact](Screenshots/Contact.png)
 
 ### Footer
-![Footer](screenshots/Footer.png)
+![Footer](Screenshots/Footer.png)
 
 ### JobDetails
-![JobDetails](screenshots/JobDetails.png)
+![JobDetails](Screenshots/JobDetails.png)
 
 ### Apply
-![Apply](screenshots/Apply.png)
+![Apply](Screenshots/Apply.png)
 
 ### MyApplication
-![MyApplication](screenshots/MyAppliactions.png)
+![MyApplication](Screenshots/MyAppliactions.png)
 
 ### USerProfile
-![UserProfile](screenshots/UserPRofile.png)
+![UserProfile](Screenshots/UserPRofile.png)
 
 ### Admin Homepage
-![Admin Homepage](screenshots/adminHome.png)
+![Admin Homepage](Screenshots/adminHome.png)
 
 ### Manage Jobs
-![Manage Jobs](screenshots/ManageJobs.png)
+![Manage Jobs](Screenshots/ManageJobs.png)
 
 ### Add Job
-![Add Job](screenshots/PostJob.png)
+![Add Job](Screenshots/PostJob.png)
 
 ### Manage USers
-![Manage USers](screenshots/Manageusers.png)
+![Manage USers](Screenshots/Manageusers.png)
 
 ### Contact Messages
-![Contact Messages](screenshots/ContactResult.png)
+![Contact Messages](Screenshots/ContactResult.png)
 
 ### Admin Profile
-![Admin Profile](screenshots/AdminProfile.png)
+![Admin Profile](Screenshots/AdminProfile.png)
 
 
 
