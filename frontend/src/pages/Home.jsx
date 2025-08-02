@@ -1,5 +1,3 @@
-// src/pages/Home.jsx
-
 import { useEffect, useState } from 'react';
 import jobServices from '../services/jobServices.js';
 import JobCard from '../components/JobCard';
@@ -7,10 +5,26 @@ import Contact from './Contact.jsx';
 
 const Home = () => {
   const [jobs, setJobs] = useState([]);
+  const [filteredJobs, setFilteredJobs] = useState([]);
+  const [searchTerm, setSearchTerm] = useState('');
 
   useEffect(() => {
-    jobServices.getJobs().then(setJobs);
+    jobServices.getJobs().then((data) => {
+      setJobs(data);
+      setFilteredJobs(data); // initial filter is all jobs
+    });
   }, []);
+
+  useEffect(() => {
+    const term = searchTerm.toLowerCase();
+    const results = jobs.filter(
+      (job) =>
+        job.title.toLowerCase().includes(term) ||
+        job.company?.toLowerCase().includes(term) ||
+        job.location?.toLowerCase().includes(term)
+    );
+    setFilteredJobs(results);
+  }, [searchTerm, jobs]);
 
   return (
     <div className="scroll-smooth">
@@ -23,13 +37,26 @@ const Home = () => {
         </a>
       </section>
 
+      {/* Search Input */}
+      <div className="bg-gray-100 py-6 px-6 flex justify-center">
+        <input
+          type="text"
+          placeholder="Search jobs by title, company, or location..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          className="w-full max-w-2xl px-4 py-2 rounded border border-gray-300 shadow-sm"
+        />
+      </div>
+
       {/* Jobs Section */}
-      <section id="jobs" className="bg-gray-100 py-16 px-6">
+      <section id="jobs" className="bg-gray-100 py-10 px-6">
         <h2 className="text-3xl font-semibold text-center mb-10">Latest Jobs</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {jobs.length ? jobs.map((job) => (
-            <JobCard key={job._id} job={job} />
-          )) : <p className="text-center text-gray-500">No jobs found.</p>}
+          {filteredJobs.length ? (
+            filteredJobs.map((job) => <JobCard key={job._id} job={job} />)
+          ) : (
+            <p className="text-center text-gray-500 col-span-full">No matching jobs found.</p>
+          )}
         </div>
       </section>
 
